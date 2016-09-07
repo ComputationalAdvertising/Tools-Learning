@@ -1,13 +1,7 @@
-## Maven-Idea使用
+## Git使用总结
 
-### 查看pom依赖jar包的依赖树
+### 代码上传至多个git仓库
 
-```
-mvn dependency:tree -Dverbose
-```
-
-### Sublime 插件安装配置
-
-#### 1. JSON
-
-+ 参考链接： https://github.com/dzhibas/SublimePrettyJson
+1. 新建仓库，假设地址为：```ssh://git@git.github.com/~zhouyong03/mtdeal-ranker-bottom.git```
+2. 进入本地项目目录，执行：```git remote add another ssh://git@git.github.com/~zhouyong03/mtdeal-ranker-bottom.git```
+3. 上传即可：```git push another offline(branch)```
