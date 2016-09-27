@@ -15,3 +15,10 @@
 > 项目目录下的```.gitmodules```和```.git/config```内容是由```git submodule add ...```命名执行后生成的，人工改动无效。
 
 git submodule详解 参考： http://www.360doc.com/content/13/0110/10/7991404_259310693.shtml
+
+### 2. git branch
+
+以```dev```分支为例：
+
++ 删除远程分支：```git push origin :dev```
++ 删除本地分支：```git branch -d dev```
